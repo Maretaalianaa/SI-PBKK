@@ -20,5 +20,5 @@ Route::get('/about', [LandingController::class, 'about']);
 Route::get('/helper', [LandingController::class, 'helper']);
 Route::get('/login', [LandingController::class, 'login']);
 
-//Authh
+//Authhhhhhh
 Route::post('/login', [LandingController::class, 'authenticate'])->name('login');
