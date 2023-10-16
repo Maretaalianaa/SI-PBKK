@@ -99,8 +99,7 @@
                                     <div class="overlay rounded-right"></div>
                                     <div class="account-testimonial">
                                         <h4 class="text-white mb-4">SI Perpus</h4>
-                                        <p class="lead text-white">"Kemudahan Aksesibilitas Perpustakaan dalam Genggaman"
-                                        </p>
+                                        <p class="lead text-white">"Kemudahan Aksesibilitas Perpustakaan dalam Genggaman"</p>
                                         <p>- SI Perpus</p>
                                     </div>
                                 </div>

@@ -245,7 +245,7 @@
 </style>
 <style>
     .masthead {
-        background-image: url("{{ asset('storage/images/1.jpg') }}") !important;
+        background-image: url("{{ asset('storage/images/4.jpg') }}") !important;
         filter:brightness(90%);
     }
 </style>
@@ -271,7 +271,7 @@
     <div class="container px-5">
         <div class="row gx-5 align-items-center">
             <div class="col-lg-6 order-lg-2">
-                <div class="p-5"><img class="img-fluid rounded" src="{{ asset('storage/images/1.jpg') }}" />
+                <div class="p-5"><img class="img-fluid rounded" src="{{ asset('storage/images/2.jpeg') }}" />
                 </div>
             </div>
             <div class="col-lg-6 order-lg-1">
@@ -280,7 +280,7 @@
                     <p>OPAC adalah katalog terbuka yang dapat diakses secara publik oleh siswa SMP Negeri 02 Kepahiang
                         . OPAC memuat beragam katalog buku yang terdapat di perpustakaan. Klik di bawah ini
                         untuk mempelajari lebih lanjut.</p>
-                    <a class="btn btn-primary btn-xl rounded-pill" href="/opac" role="button">Buka Katalog</a>
+                    <a class="btn btn-primary btn-xl rounded-pill" href="" role="button">Buka Katalog</a>
                 </div>
             </div>
         </div>
@@ -307,7 +307,7 @@
     <div class="container px-5">
         <div class="row gx-5 align-items-center">
             <div class="col-lg-6 order-lg-2">
-                <div class="p-5"><img class="img-fluid rounded" src="{{ asset('storage/images/2.jpeg') }}"
+                <div class="p-5"><img class="img-fluid rounded" src="{{ asset('storage/images/3.jpeg') }}"
                         alt="..." />
                 </div>
             </div>

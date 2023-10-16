@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LandingController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +24,9 @@ Route::get('/login', [LandingController::class, 'login']);
 
 //Authhhhhhh
 Route::post('/login', [LandingController::class, 'authenticate'])->name('login');
+Route::post('/logout', [DashboardController::class, 'logout'])->middleware('auth');
+
+
+//Dashboard
+Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
+Route::resource('/dashboard/users', UserController::class)->middleware('auth');
