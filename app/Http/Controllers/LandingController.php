@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Book;
+use App\Models\Rak;
 use Illuminate\Support\Facades\Auth;
 
 class LandingController extends Controller
@@ -12,6 +14,32 @@ class LandingController extends Controller
     {
         return view('landing.index', [
             'active' => 'index',
+        ]);
+    }
+
+    //OPAC
+    public function opac()
+    {
+        return view('landing.opac', [
+            'active' => 'opac',
+            'books' => Book::orderBy('rak_id', 'desc')
+                ->filter(request(['search']))
+                ->paginate(7)
+                ->withQueryString(),
+            'raks' => Rak::paginate(6)
+            ->withQueryString(),
+        ]);
+    }
+
+    //SCAN BARCODE
+    public function barcode()
+    {
+        return view('landing.barcode', [
+            'active' => 'opac',
+            'books' => Book::latest()
+                ->filter(request(['barcode']))
+                ->paginate(7)
+                ->withQueryString(),
         ]);
     }
 

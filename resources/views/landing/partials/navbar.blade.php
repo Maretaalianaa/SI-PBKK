@@ -20,7 +20,7 @@
                 </li>
                 <!-- ARAHKAN ROUTES KETIKA SIAP NANTI -->
                 <li class="nav-item">
-                    <a class="nav-link {{ $active === 'opac' ? 'active' : '' }}" href="">Katalog</a>
+                    <a class="nav-link {{ $active === 'opac' ? 'active' : '' }}" href="/opac">Katalog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ $active === 'about' ? 'active' : '' }}" href="/about">Tentang Kami</a>

@@ -280,7 +280,7 @@
                     <p>OPAC adalah katalog terbuka yang dapat diakses secara publik oleh siswa SMP Negeri 02 Kepahiang
                         . OPAC memuat beragam katalog buku yang terdapat di perpustakaan. Klik di bawah ini
                         untuk mempelajari lebih lanjut.</p>
-                    <a class="btn btn-primary btn-xl rounded-pill" href="" role="button">Buka Katalog</a>
+                    <a class="btn btn-primary btn-xl rounded-pill" href="/opac" role="button">Buka Katalog</a>
                 </div>
             </div>
         </div>
